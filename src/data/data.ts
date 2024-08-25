@@ -24,7 +24,7 @@ export const AllItmes: FlippedItemType[] = [
     },
     {
         'id': 2,
-        'title': 'dark',
+        'title': 'flipped',
         'link': 'http://divition2.vercel.app/yourcustomname',
         'image': img2,
         // 'type': 'Eksklusif' 
