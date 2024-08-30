@@ -1,8 +1,10 @@
 import React from "react"
 import { Hero } from "../Hero"
 interface NavbarProps {
+  toggle: boolean; 
   setToggle: React.Dispatch<React.SetStateAction<boolean>>;
 }
+
 export const Navbar: React.FC<NavbarProps> = ({setToggle}) => {
   const openFormModal = () => {
     setToggle((e) => !e)

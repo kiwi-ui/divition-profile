@@ -1,4 +1,3 @@
-import send from '../../assets/svg/send.svg'
 interface FormOrderProps {
     setToggle: React.Dispatch<React.SetStateAction<boolean>>
     toggle: boolean

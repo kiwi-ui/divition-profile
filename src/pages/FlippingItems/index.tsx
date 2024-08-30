@@ -1,4 +1,4 @@
-import { AllItmes, Features } from "../../data/data"
+import { AllItmes } from "../../data/data"
 
 export const Flippingitems = () => {
   return (
