@@ -8,6 +8,7 @@ import music from '../assets/svg/music.svg';
 import responsive from '../assets/svg/responsive.svg';
 import map from '../assets/svg/map.svg';
 import guest from '../assets/svg/guest.svg';
+import mix  from  '../assets/svg/mix.svg';
 
 interface FlippedItemType {
     id:number,
@@ -149,5 +150,12 @@ export const Features = [
         'title': 'Galeri Foto',
         'desc': 'Bagikan foto preweddingmu dengan layout yang keren untuk menambah kesan terbaik kepada para tamu',
         'icon': gallery,
+    },
+    {
+        'id': 8,
+        'title': 'Gabung Desain',
+        'desc': 'Gabungkan dengan bebas bagian wedding website yang kamu rasa cocok dengan desain kamu',
+        'icon': mix,
     }
+
 ] 

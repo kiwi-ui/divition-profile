@@ -14,7 +14,7 @@ export const Flippingitems = () => {
                 <div className="col-md-4" key={item.id}>
                   <div className={`card shadow rounded-3 ${item.link ? 'card-feature' : 'card-soon'} position-relative`}>
                     {item.link ? 
-                      <a href={item.link} target="_blank">
+                      <a href={item.link} target="__blank">
                         <p className="position-absolute top-50 translate-middle start-50 fw-bold fs-4 text-white">View</p>
                       </a> : null
                     }
