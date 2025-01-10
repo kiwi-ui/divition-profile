@@ -11,7 +11,7 @@ import map from '../assets/svg/map.svg';
 import guest from '../assets/svg/guest.svg';
 import mix  from  '../assets/svg/mix.svg';
 
-interface FlippedItemType {
+interface FlippedItemType { 
     id:number,
     title: string,
     link: string,
