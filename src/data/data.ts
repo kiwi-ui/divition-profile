@@ -2,6 +2,7 @@ import img1 from '../assets/images/1.webp';
 import img2 from '../assets/images/2.webp';
 import img3 from '../assets/images/3.webp';
 import img4 from '../assets/images/divition4.webp';
+import img5 from '../assets/images/divition5.png';
 import comingSoonImg from '../assets/images/comingsoon.webp';
 import clock from '../assets/svg/clock-white.svg';
 import gallery from '../assets/svg/gallery.svg';
@@ -48,9 +49,9 @@ export const AllItmes: FlippedItemType[] = [
     },
     {
         'id': 5,
-        'title': 'Coming Soon!',
-        'link': '',
-        'image': comingSoonImg,
+        'title': 'aesthetic',
+        'link': 'https://divition5.vercel.app/yourguestname',
+        'image': img5,
         // 'type': 'Eksklusif' 
     },
     {
