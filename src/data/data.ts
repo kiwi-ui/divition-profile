@@ -3,6 +3,7 @@ import img2 from '../assets/images/2.webp';
 import img3 from '../assets/images/3.webp';
 import img4 from '../assets/images/divition4.webp';
 import img5 from '../assets/images/divition5.webp';
+import img6 from '../assets/images/divition7.webp';
 import comingSoonImg from '../assets/images/comingsoon.webp';
 import clock from '../assets/svg/clock-white.svg';
 import gallery from '../assets/svg/gallery.svg';
@@ -56,9 +57,9 @@ export const AllItmes: FlippedItemType[] = [
     },
     {
         'id': 6,
-        'title': 'Coming Soon!',
-        'link': '',
-        'image': comingSoonImg,
+        'title': 'Culture',
+        'link': 'https://dvt7.vercel.app/yourcustomname',
+        'image': img6,
         // 'type': 'Eksklusif' 
     },
 ]
@@ -159,5 +160,4 @@ export const Features = [
         'desc': 'Gabungkan dengan bebas bagian wedding website yang kamu rasa cocok dengan desain kamu',
         'icon': mix,
     }
-
-] 
+]
