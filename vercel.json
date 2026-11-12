@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/dvt7/:match*",
+      "destination":"dvt7.vercel.app/:match*"
+    }
+  ]
+}
