@@ -2,7 +2,15 @@
   "rewrites": [
     {
       "source": "/jualtanah",
-      "destination":"jualtanah.vercel.app"
+      "destination": "https://jualtanah.vercel.app/"
+    },
+    {
+      "source": "/jualtanah/:path*",
+      "destination": "https://jualtanah.vercel.app/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
