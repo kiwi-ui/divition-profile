@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/jualtanah",
-      "destination":"jualtanah-hr0pw5dba-kiwiui1s-projects.vercel.app"
+      "destination":"jualtanah.vercel.app"
     }
   ]
 }
