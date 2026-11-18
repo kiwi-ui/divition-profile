@@ -1,0 +1,3 @@
+https://stripe.com/ -> hero section inspiration
+whatamesh -> library untuk hero section strip muter2
+    

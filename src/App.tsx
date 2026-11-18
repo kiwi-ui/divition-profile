@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Fitur } from "./components/Fitur";
 import { Footer } from "./components/Footer";
 import { FormOrder } from "./components/FormOrder";
-import { Navbar } from "./components/Navbar";
 import { Flippingitems } from "./pages/FlippingItems";
+import Hero from "./components/Hero";
 
 export default function App() {
   const [toggle, setToggle] = useState(false);
@@ -11,7 +11,7 @@ export default function App() {
     <>
       <FormOrder toggle={toggle} setToggle={setToggle} />
       <header>
-        <Navbar toggle={toggle} setToggle={setToggle} />
+        <Hero toggle={toggle} setToggle={setToggle} />
       </header>
       <body>
         <Flippingitems/>
