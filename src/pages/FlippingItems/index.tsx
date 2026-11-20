@@ -5,8 +5,8 @@ export const Flippingitems = () => {
     <section className="position-relative pb-2 text-center pb-5">
         <div className="container">
           <div className="py-4">
-            <p className="mb-0 text-center fs-4 fw-bold text-header">Our Designs</p>
-            <p className="m-0 text-center fs-2 fw-bold">Customize Your Design as Much as You Want</p>
+            <p className="mb-0 text-center fs-4 fw-bold text-header">Curated Collections</p>
+            <p className="m-0 text-center fs-2 fw-bold">Timeless Designs for Every Celebration</p>
           </div>
           
           <div className="row justify-content-center g-4">

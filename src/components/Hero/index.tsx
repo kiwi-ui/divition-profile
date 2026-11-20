@@ -118,22 +118,21 @@ export default function Hero({ toggle, setToggle }: { toggle: boolean, setToggle
         </span>
 
         <h1>
-          Create your beautiful
-          <span> wedding moments.</span>
+          Create Elegant Digital <span>Wedding Invitations</span> in Minutes
         </h1>
 
         <p>
-          Create elegant digital wedding invitations
-          with beautiful designs and unforgettable experiences.
+          Explore a curated collection of timeless designs and 
+          bespoke styles for your special day.
         </p>
 
         <div className={style.heroButtons}>
           <button className={style.primaryButton} onClick={ScrollBelow}>
-            Explore invitations →
+            Explore templates →
           </button>
 
           <button className={style.secondaryButton} onClick={() => setToggle(!toggle)}>
-            Learn more
+            Order now →
           </button>
         </div>
       </div>

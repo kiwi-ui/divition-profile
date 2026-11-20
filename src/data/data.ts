@@ -61,7 +61,50 @@ export const AllItmes: FlippedItemType[] = [
         'image': img6,
         // 'type': 'Eksklusif' 
     },
+    {
+        'id': 7,
+        'title': 'simple',
+        'link': 'http://divition1.vercel.app/yourcustomname',
+        'image': img1,
+        // 'type': 'Eksklusif' 
+    },
+    {
+        'id': 8,
+        'title': 'flipped',
+        'link': 'http://divition2.vercel.app/yourcustomname',
+        'image': img2,
+        // 'type': 'Eksklusif' 
+    },
+    {
+        'id': 9,
+        'title': 'simple',
+        'link': 'https://divition-3.vercel.app/yourcustomname',
+        'image': img3,
+        // 'type': 'Eksklusif' 
+    },
+    {
+        'id': 10,
+        'title': 'slide',
+        'link': 'https://divition4.vercel.app/yourcustomname',
+        'image': img4,
+        // 'type': 'Eksklusif' 
+    },
+    {
+        'id': 11,
+        'title': 'aesthetic',
+        'link': 'https://divition5.vercel.app/yourguestname',
+        'image': img5,
+        // 'type': 'Eksklusif' 
+    },
+    {
+        'id': 12,
+        'title': 'Culture',
+        'link': 'https://dvt7.vercel.app/yourcustomname',
+        'image': img6,
+        // 'type': 'Eksklusif' 
+    },    
 ]
+
 export const FlippedItem: FlippedItemType[] = [
     {
         'id': 1,
